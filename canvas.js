@@ -50,7 +50,7 @@ function drawBall(){
     ctx.fill();
 
     
-        let xj = 1;
+        let xj = 5;
         let xjo = xj*40
         let xjolo = 20
         let xjol = xjo+xjolo
