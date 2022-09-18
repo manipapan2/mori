@@ -1,0 +1,318 @@
+*{
+    border-style: none;
+}
+
+
+*:focus{
+    outline: none;
+}
+
+
+body{
+    
+}
+
+.bodyFake{
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.pocan{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+
+
+
+.Canvas{ 
+    width: 100%;
+    height: 80%;
+    display: flex;
+    /* position: absolute; */
+    border: 5px red solid;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+}
+
+
+.shat{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* position: absolute; */
+    border: 5px aqua solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+
+.soton{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+
+.testi{
+    border: chartreuse 2px solid;
+    width: 100%;
+    height: 100%;
+}
+
+
+.naderk{
+    background-image: url(unknown12.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.mamol{
+    background-image: url(56.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.mar1{
+    background-image: url(mar1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wi{
+    width: 100%;
+    border: 2px firebrick solid;
+}
+
+
+
+.tas{
+    display: flex;
+    position: absolute;
+    border: purple 5px solid;
+    background-color: purple;
+    width: 100%;
+    height: 20%;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.rantas{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: black 2px solid;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.rantas:hover{
+    cursor: pointer;
+}
+
+
+.one1{
+    display: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.two2{
+    display: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.three3{
+    display: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.for4{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.five5{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.six6{
+    display: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.zero0{
+    display: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ziadadad{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ziadadad .topp{
+    margin: 0;
+}
+
+
+
+.topp{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+
+
+.toppkhas{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+.three3 .topp{
+    width: 20px;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+
+
+.pcentekhab{
+    display: flex;
+    position: absolute;
+    border: indianred 5px solid;
+    width: 35%;
+    height: 100%;
+    bottom: 0;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media only screen and (max-width:900px) {
+    .Canva{
+        width: 100%;
+        height: 100%;    
+    }
+
+
+    .pocan{
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+
+    .tas{
+        width: 100%;
+    }
+
+
+
+    .pcentekhab{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width:1000px) {
+    .Canvas{
+        width: 30%;
+        height: 100%;
+    }
+
+
+    .shat{
+        width: 30%;
+        height: 100%;
+    }
+    
+    
+    
+    .tas{
+        bottom: 0;
+        right: 0;
+        width: 35%;
+        height: 100%;
+    }
+    
+    
+}
