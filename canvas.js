@@ -53,7 +53,7 @@ function harekat2(){
     let sett = setInterval(drawBall,8);
     setTimeout(() => {
         clearInterval(sett);
-      }, "120")
+      }, "112")
 
       setTimeout(() => {
         harekat3()
@@ -66,7 +66,7 @@ function harekat3(){
     let seti = setInterval(drawBall,8)
     setTimeout(() => {
         clearInterval(seti);
-      }, "120")
+      }, "116")
 
 
       setTimeout(() => {
@@ -80,7 +80,7 @@ function harekat4(){
     let sett = setInterval(drawBall,8);
     setTimeout(() => {
         clearInterval(sett);
-      }, "120")
+      }, "112")
 
       setTimeout(() => {
         harekat5()
@@ -93,7 +93,7 @@ function harekat5(){
     let seti = setInterval(drawBall,8)
     setTimeout(() => {
         clearInterval(seti);
-      }, "120")
+      }, "113")
 
 
       setTimeout(() => {
@@ -107,7 +107,7 @@ function harekat6(){
     let sett = setInterval(drawBall,8);
     setTimeout(() => {
         clearInterval(sett);
-      }, "120")
+      }, "110")
       rantas.style.pointerEvents="painted";
 }
 
