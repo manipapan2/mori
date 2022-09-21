@@ -1,7 +1,8 @@
 let canvass = document.getElementById("Canvas")
 let pocan = document.querySelector(".pocan")
 let one1 = document.getElementById("one1")
-document.getElementById("rantas").addEventListener("click",harekat)
+document.getElementById("rantas").addEventListener("click",harekat);
+let rantas = document.getElementById("rantas");
 let ctx = canvass.getContext("2d");
 let heightRatio = 1.5;
 // canvass.height = pocan.offsetHeight
@@ -34,13 +35,86 @@ drawBall()
 
 
 function harekat(){
-    setInterval(drawBall,8)
+    rantas.style.pointerEvents="none";
+    let seti = setInterval(drawBall,8)
+    setTimeout(() => {
+        clearInterval(seti);
+      }, "120")
+
+
+      setTimeout(() => {
+        harekat2()
+      }, "400")
+}
+
+
+
+function harekat2(){
+    let sett = setInterval(drawBall,8);
+    setTimeout(() => {
+        clearInterval(sett);
+      }, "120")
+
+      setTimeout(() => {
+        harekat3()
+      }, "400")
+}
+
+
+
+function harekat3(){
+    let seti = setInterval(drawBall,8)
+    setTimeout(() => {
+        clearInterval(seti);
+      }, "120")
+
+
+      setTimeout(() => {
+        harekat4()
+      }, "400")
+}
+
+
+
+function harekat4(){
+    let sett = setInterval(drawBall,8);
+    setTimeout(() => {
+        clearInterval(sett);
+      }, "120")
+
+      setTimeout(() => {
+        harekat5()
+      }, "400")
+}
+
+
+
+function harekat5(){
+    let seti = setInterval(drawBall,8)
+    setTimeout(() => {
+        clearInterval(seti);
+      }, "120")
+
+
+      setTimeout(() => {
+        harekat6()
+      }, "400")
+}
+
+
+
+function harekat6(){
+    let sett = setInterval(drawBall,8);
+    setTimeout(() => {
+        clearInterval(sett);
+      }, "120")
+      rantas.style.pointerEvents="painted";
 }
 
 
 
 function drawBall(){
-
+    
 
     ctx.clearRect(0,0 , canvass.width , canvass.height);
 
@@ -59,7 +133,7 @@ function drawBall(){
 
 
     if(ctxxvasat<xjol){
-        ctxxvasat+=5
+        ctxxvasat+=3
     }
 
 
